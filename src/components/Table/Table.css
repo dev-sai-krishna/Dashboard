@@ -1,0 +1,28 @@
+.status{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.details{
+    color: #00b5ff !important;
+}
+
+@media screen and (max-width: 1200px){
+    .Table{
+        width: 170%;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Table{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
